@@ -1,2 +1,0 @@
-# zulsiakapi
-Sistem Informasi Akademik
