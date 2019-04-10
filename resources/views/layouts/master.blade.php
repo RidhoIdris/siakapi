@@ -7,19 +7,19 @@
 	<meta name="keywords" content="event, unica, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
-	<link href="{{ secure_asset('assets/img/favicon.ico') }}" rel="shortcut icon"/>
+	<link href="{{ asset('assets/img/favicon.ico') }}" rel="shortcut icon"/>
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="{{ secure_asset('assets/css/bootstrap.min.css') }}"/>
-	<link rel="stylesheet" href="{{ secure_asset('assets/css/font-awesome.min.css') }}"/>
-	<link rel="stylesheet" href="{{ secure_asset('assets/css/themify-icons.css') }}"/>
-	<link rel="stylesheet" href="{{ secure_asset('assets/css/magnific-popup.css') }}"/>
-	<link rel="stylesheet" href="{{ secure_asset('assets/css/animate.css') }}"/>
-	<link rel="stylesheet" href="{{ secure_asset('assets/css/owl.carousel.css') }}"/>
-	<link rel="stylesheet" href="{{ secure_asset('assets/css/style.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('assets/css/themify-icons.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"/>
 
 
 	<!--[if lt IE 9]>
@@ -38,7 +38,7 @@
 	<header class="header-section">
 		<div class="container">
 			<!-- logo -->
-			<a href="index.html" class="site-logo"><img src="{{ secure_asset('assets/img/logo.png')}}" alt=""></a>
+			<a href="index.html" class="site-logo"><img src="{{ asset('assets/img/logo.png')}}" alt=""></a>
 			<div class="nav-switch">
 				<i class="fa fa-bars"></i>
 			</div>
@@ -81,7 +81,7 @@
 	<section class="hero-section">
 		<div class="hero-slider owl-carousel">
 
-			<div class="hs-item set-bg" data-setbg="{{ secure_asset('assets/img/hero-slider/1.jpg')}}">
+			<div class="hs-item set-bg" data-setbg="{{ asset('assets/img/hero-slider/1.jpg')}}">
 				<div class="hs-text">
 					<div class="container">
 						<div class="row">
@@ -95,7 +95,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="hs-item set-bg" data-setbg="{{ secure_asset('assets/img/hero-slider/2.jpg')}}">
+			<div class="hs-item set-bg" data-setbg="{{ asset('assets/img/hero-slider/2.jpg')}}">
 				<div class="hs-text">
 					<div class="container">
 						<div class="row">
@@ -151,7 +151,7 @@
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 service-item">
 					<div class="service-icon">
-						<img src="{{ secure_asset('assets/img/services-icons/1.png')}}" alt="1">
+						<img src="{{ asset('assets/img/services-icons/1.png')}}" alt="1">
 					</div>
 					<div class="service-content">
 						<h4>Art Studio</h4>
@@ -160,7 +160,7 @@
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
 					<div class="service-icon">
-						<img src="{{ secure_asset('assets/img/services-icons/2.png')}}" alt="1">
+						<img src="{{ asset('assets/img/services-icons/2.png')}}" alt="1">
 					</div>
 					<div class="service-content">
 						<h4>Great Facility</h4>
@@ -169,7 +169,7 @@
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
 					<div class="service-icon">
-						<img src="{{ secure_asset('assets/img/services-icons/3.png')}}" alt="1">
+						<img src="{{ asset('assets/img/services-icons/3.png')}}" alt="1">
 					</div>
 					<div class="service-content">
 						<h4>Activity Hub</h4>
@@ -178,7 +178,7 @@
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
 					<div class="service-icon">
-						<img src="{{ secure_asset('assets/img/services-icons/4.png')}}" alt="1">
+						<img src="{{ asset('assets/img/services-icons/4.png')}}" alt="1">
 					</div>
 					<div class="service-content">
 						<h4>Fully Qualified</h4>
@@ -187,7 +187,7 @@
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
 					<div class="service-icon">
-						<img src="{{ secure_asset('assets/img/services-icons/5.png')}}" alt="1">
+						<img src="{{ asset('assets/img/services-icons/5.png')}}" alt="1">
 					</div>
 					<div class="service-content">
 						<h4>Flexible Schedule</h4>
@@ -196,7 +196,7 @@
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
 					<div class="service-icon">
-						<img src="{{ secure_asset('assets/img/services-icons/6.png')}}" alt="1">
+						<img src="{{ asset('assets/img/services-icons/6.png')}}" alt="1">
 					</div>
 					<div class="service-content">
 						<h4>Chemistry Lab</h4>
@@ -210,7 +210,7 @@
 
 
 	<!-- Enroll section -->
-	<section class="enroll-section spad set-bg" data-setbg="{{ secure_asset('assets/img/enroll-bg.jpg')}}">
+	<section class="enroll-section spad set-bg" data-setbg="{{ asset('assets/img/enroll-bg.jpg')}}">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
@@ -237,7 +237,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
-					<img src="{{ secure_asset('assets/img/encroll-img.jpg')}}" alt="">
+					<img src="{{ asset('assets/img/encroll-img.jpg')}}" alt="">
 				</div>
 			</div>
 		</div>
@@ -256,7 +256,7 @@
 				<!-- course item -->
 				<div class="col-lg-4 col-md-6 course-item">
 					<div class="course-thumb">
-						<img src="{{ secure_asset('assets/img/course/1.jpg')}}" alt="">
+						<img src="{{ asset('assets/img/course/1.jpg')}}" alt="">
 						<div class="course-cat">
 							<span>BUSINESS</span>
 						</div>
@@ -270,7 +270,7 @@
 				<!-- course item -->
 				<div class="col-lg-4 col-md-6 course-item">
 					<div class="course-thumb">
-						<img src="{{ secure_asset('assets/img/course/2.jpg')}}" alt="">
+						<img src="{{ asset('assets/img/course/2.jpg')}}" alt="">
 						<div class="course-cat">
 							<span>Marketing</span>
 						</div>
@@ -284,7 +284,7 @@
 				<!-- course item -->
 				<div class="col-lg-4 col-md-6 course-item">
 					<div class="course-thumb">
-						<img src="{{ secure_asset('assets/img/course/3.jpg')}}" alt="">
+						<img src="{{ asset('assets/img/course/3.jpg')}}" alt="">
 						<div class="course-cat">
 							<span>DESIGN</span>
 						</div>
@@ -298,7 +298,7 @@
 				<!-- course item -->
 				<div class="col-lg-4 col-md-6 course-item">
 					<div class="course-thumb">
-						<img src="{{ secure_asset('assets/img/course/4.jpg')}}" alt="">
+						<img src="{{ asset('assets/img/course/4.jpg')}}" alt="">
 						<div class="course-cat">
 							<span>DATABASE</span>
 						</div>
@@ -312,7 +312,7 @@
 				<!-- course item -->
 				<div class="col-lg-4 col-md-6 course-item">
 					<div class="course-thumb">
-						<img src="{{ secure_asset('assets/img/course/5.jpg')}}" alt="">
+						<img src="{{ asset('assets/img/course/5.jpg')}}" alt="">
 						<div class="course-cat">
 							<span>PROGRAM</span>
 						</div>
@@ -326,7 +326,7 @@
 				<!-- course item -->
 				<div class="col-lg-4 col-md-6 course-item">
 					<div class="course-thumb">
-						<img src="{{ secure_asset('assets/img/course/6.jpg')}}" alt="">
+						<img src="{{ asset('assets/img/course/6.jpg')}}" alt="">
 						<div class="course-cat">
 							<span>BUSINESS</span>
 						</div>
@@ -344,7 +344,7 @@
 
 
 	<!-- Fact section -->
-	<section class="fact-section spad set-bg" data-setbg="{{ secure_asset('assets/img/fact-bg.jpg')}}">
+	<section class="fact-section spad set-bg" data-setbg="{{ asset('assets/img/fact-bg.jpg')}}">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-lg-3 fact">
@@ -399,7 +399,7 @@
 			<div class="row">
 				<div class="col-md-6 event-item">
 					<div class="event-thumb">
-						<img src="{{ secure_asset('assets/img/event/1.jpg')}}" alt="">
+						<img src="{{ asset('assets/img/event/1.jpg')}}" alt="">
 						<div class="event-date">
 							<span>24 Mar 2018</span>
 						</div>
@@ -412,7 +412,7 @@
 				</div>
 				<div class="col-md-6 event-item">
 					<div class="event-thumb">
-						<img src="{{ secure_asset('assets/img/event/2.jpg')}}" alt="">
+						<img src="{{ asset('assets/img/event/2.jpg')}}" alt="">
 						<div class="event-date">
 							<span>22 Mar 2018</span>
 						</div>
@@ -433,29 +433,29 @@
 	<div class="gallery-section">
 		<div class="gallery">
 			<div class="grid-sizer"></div>
-			<div class="gallery-item gi-big set-bg" data-setbg="{{ secure_asset('assets/img/gallery/1.jpg')}}">
-				<a class="img-popup" href="{{ secure_asset('assets/img/gallery/1.jpg')}}"><i class="ti-plus"></i></a>
+			<div class="gallery-item gi-big set-bg" data-setbg="{{ asset('assets/img/gallery/1.jpg')}}">
+				<a class="img-popup" href="{{ asset('assets/img/gallery/1.jpg')}}"><i class="ti-plus"></i></a>
 			</div>
-			<div class="gallery-item set-bg" data-setbg="{{ secure_asset('assets/img/gallery/2.jpg')}}">
-				<a class="img-popup" href="{{ secure_asset('assets/img/gallery/2.jpg')}}"><i class="ti-plus"></i></a>
+			<div class="gallery-item set-bg" data-setbg="{{ asset('assets/img/gallery/2.jpg')}}">
+				<a class="img-popup" href="{{ asset('assets/img/gallery/2.jpg')}}"><i class="ti-plus"></i></a>
 			</div>
-			<div class="gallery-item set-bg" data-setbg="{{ secure_asset('assets/img/gallery/3.jpg')}}">
-				<a class="img-popup" href="{{ secure_asset('assets/img/gallery/3.jpg')}}"><i class="ti-plus"></i></a>
+			<div class="gallery-item set-bg" data-setbg="{{ asset('assets/img/gallery/3.jpg')}}">
+				<a class="img-popup" href="{{ asset('assets/img/gallery/3.jpg')}}"><i class="ti-plus"></i></a>
 			</div>
-			<div class="gallery-item gi-long set-bg" data-setbg="{{ secure_asset('assets/img/gallery/5.jpg')}}">
-				<a class="img-popup" href="{{ secure_asset('assets/img/gallery/5.jpg')}}"><i class="ti-plus"></i></a>
+			<div class="gallery-item gi-long set-bg" data-setbg="{{ asset('assets/img/gallery/5.jpg')}}">
+				<a class="img-popup" href="{{ asset('assets/img/gallery/5.jpg')}}"><i class="ti-plus"></i></a>
 			</div>
-			<div class="gallery-item gi-big set-bg" data-setbg="{{ secure_asset('assets/img/gallery/8.jpg')}}">
-				<a class="img-popup" href="{{ secure_asset('assets/img/gallery/8.jpg')}}"><i class="ti-plus"></i></a>
+			<div class="gallery-item gi-big set-bg" data-setbg="{{ asset('assets/img/gallery/8.jpg')}}">
+				<a class="img-popup" href="{{ asset('assets/img/gallery/8.jpg')}}"><i class="ti-plus"></i></a>
 			</div>
-			<div class="gallery-item gi-long set-bg" data-setbg="{{ secure_asset('assets/img/gallery/4.jpg')}}">
-				<a class="img-popup" href="{{ secure_asset('assets/img/gallery/4.jpg')}}"><i class="ti-plus"></i></a>
+			<div class="gallery-item gi-long set-bg" data-setbg="{{ asset('assets/img/gallery/4.jpg')}}">
+				<a class="img-popup" href="{{ asset('assets/img/gallery/4.jpg')}}"><i class="ti-plus"></i></a>
 			</div>
-			<div class="gallery-item set-bg" data-setbg="{{ secure_asset('assets/img/gallery/6.jpg')}}">
-				<a class="img-popup" href="{{ secure_asset('assets/img/gallery/6.jpg')}}"><i class="ti-plus"></i></a>
+			<div class="gallery-item set-bg" data-setbg="{{ asset('assets/img/gallery/6.jpg')}}">
+				<a class="img-popup" href="{{ asset('assets/img/gallery/6.jpg')}}"><i class="ti-plus"></i></a>
 			</div>
-			<div class="gallery-item set-bg" data-setbg="{{ secure_asset('assets/img/gallery/7.jpg')}}">
-				<a class="img-popup" href="{{ secure_asset('assets/img/gallery/7.jpg')}}"><i class="ti-plus"></i></a>
+			<div class="gallery-item set-bg" data-setbg="{{ asset('assets/img/gallery/7.jpg')}}">
+				<a class="img-popup" href="{{ asset('assets/img/gallery/7.jpg')}}"><i class="ti-plus"></i></a>
 			</div>
 		</div>
 	</div>
@@ -472,7 +472,7 @@
 			<div class="row">
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="{{ secure_asset('assets/img/blog/1.jpg')}}"></div>
+						<div class="blog-thumb set-bg" data-setbg="{{ asset('assets/img/blog/1.jpg')}}"></div>
 						<div class="blog-content">
 							<h4>Parents who try to be their children’s best friends</h4>
 							<div class="blog-meta">
@@ -485,7 +485,7 @@
 				</div>
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="{{ secure_asset('assets/img/blog/2.jpg')}}"></div>
+						<div class="blog-thumb set-bg" data-setbg="{{ asset('assets/img/blog/2.jpg')}}"></div>
 						<div class="blog-content">
 							<h4>Graduations could be delayed as external examiners</h4>
 							<div class="blog-meta">
@@ -498,7 +498,7 @@
 				</div>
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="{{ secure_asset('assets/img/blog/3.jpg')}}"></div>
+						<div class="blog-thumb set-bg" data-setbg="{{ asset('assets/img/blog/3.jpg')}}"></div>
 						<div class="blog-content">
 							<h4>Private schools adopt a Ucas style application system</h4>
 							<div class="blog-meta">
@@ -511,7 +511,7 @@
 				</div>
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="{{ secure_asset('assets/img/blog/4.jpg')}}"></div>
+						<div class="blog-thumb set-bg" data-setbg="{{ asset('assets/img/blog/4.jpg')}}"></div>
 						<div class="blog-content">
 							<h4>Cambridge digs in at the top of university league table</h4>
 							<div class="blog-meta">
@@ -557,7 +557,7 @@
 				<!-- widget -->
 				<div class="col-sm-6 col-lg-3 footer-widget">
 					<div class="about-widget">
-						<img src="{{ secure_asset('assets/img/logo-light.png')}}" alt="">
+						<img src="{{ asset('assets/img/logo-light.png')}}" alt="">
 						<p>orem ipsum dolor sit amet, consecter adipiscing elite. Donec minos varius, viverra justo ut, aliquet nisl.</p>
 						<div class="social pt-1">
 							<a href=""><i class="fa fa-twitter-square"></i></a>
@@ -628,12 +628,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 	<!--====== Javascripts & Jquery ======-->
-	<script src="{{ secure_asset('assets/js/jquery-3.2.1.min.js')}}"></script>
-	<script src="{{ secure_asset('assets/js/owl.carousel.min.js')}}"></script>
-	<script src="{{ secure_asset('assets/js/jquery.countdown.js')}}"></script>
-	<script src="{{ secure_asset('assets/js/masonry.pkgd.min.js')}}"></script>
-	<script src="{{ secure_asset('assets/js/magnific-popup.min.js')}}"></script>
-	<script src="{{ secure_asset('assets/js/main.js')}}"></script>
+	<script src="{{ asset('assets/js/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{ asset('assets/js/owl.carousel.min.js')}}"></script>
+	<script src="{{ asset('assets/js/jquery.countdown.js')}}"></script>
+	<script src="{{ asset('assets/js/masonry.pkgd.min.js')}}"></script>
+	<script src="{{ asset('assets/js/magnific-popup.min.js')}}"></script>
+	<script src="{{ asset('assets/js/main.js')}}"></script>
 
 </body>
 </html>
